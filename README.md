@@ -2,6 +2,16 @@
 
 ![Python - Randon Password Generator](https://cloud.githubusercontent.com/assets/15425071/22991754/0e5e1edc-f3c6-11e6-81b6-46f3ae7469ea.png)
 
+## Features
+
+* Generate 100% secure password.
+
+* Random password generation.
+
+* We do not store passwords in our system.
+
+* Open Source
+
 ## Clone with HTTPS
 ```
 git clone https://github.com/ismailtasdelen/Python-Randon-Password-Generator.git
