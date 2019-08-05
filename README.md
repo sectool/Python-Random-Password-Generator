@@ -19,3 +19,13 @@ git clone https://github.com/ismailtasdelen/Python-Randon-Password-Generator.git
 ```
 git clone git@github.com:ismailtasdelen/Python-Randon-Password-Generator.git
 ```
+
+## Run pip3 install to set up this script
+```
+pip3 install .
+```
+
+## Generating a password via following command
+```
+python3 run.py
+```

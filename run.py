@@ -2,6 +2,8 @@
 # -*- conding:utf-8 -*-
 
 import os
+from source import rpg
 
 ## Running
-os.system("python source/rpg.py")
+rpg.random_password_generator_ico()
+print("Password : " + rpg.random_password_generator())
