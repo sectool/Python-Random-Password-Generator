@@ -4,16 +4,16 @@
 import string
 import random
 
-def random_password_genertor():
+def random_password_generator():
     chars = string.ascii_uppercase + string.ascii_lowercase + string.digits
     size = 8
-    return ''.join(random.choice(chars) for x in range(size,20))
+    return ''.join(random.choice(chars) for x in range(size, 20))
 
-def random_password_genertor_ico():
-	random_password_genertor_ico = """
+def random_password_generator_ico():
+	random_password_generator_ico = """
 	#############################################################
 	# PYTHON - Random Password Generetor (RPG) - GH0ST S0FTWARE #
-	############################################################# 
+	#############################################################
 	#                         CONTACT                           #
 	#############################################################
 	#               DEVELOPER : İSMAİL TAŞDELEN                 #
@@ -22,7 +22,4 @@ def random_password_genertor_ico():
 	#              Whatsapp : + 90 534 295 94 31                #
 	#############################################################
 	"""
-	print random_password_genertor_ico
-
-random_password_genertor_ico()
-print("Password : " + random_password_genertor())
+	print(random_password_generator_ico)
